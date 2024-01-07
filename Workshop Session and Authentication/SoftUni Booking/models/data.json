@@ -1,0 +1,29 @@
+[
+  {
+    "id": "1234",
+    "name": "Room",
+    "description": "Nice and clean",
+    "city": "Bansko",
+    "beds": 2,
+    "price": 130,
+    "imgUrl": "/static/assets/room.jpg.avif"
+  },
+  {
+    "id": "0baab0",
+    "name": "1",
+    "description": "6",
+    "city": "2",
+    "beds": 3,
+    "price": 4,
+    "imgUrl": "5"
+  },
+  {
+    "id": "04b5d6",
+    "name": "1",
+    "description": "6",
+    "city": "2",
+    "beds": 3,
+    "price": 4,
+    "imgUrl": "5"
+  }
+]

@@ -1,0 +1,17 @@
+<section>
+<h1>New Accomodation</h1>
+<main>
+    {{#if error}}
+      <div><p>{{error}}</p></div>
+    {{/if}}
+    <form action="/create" method="post">
+         <label for=""><span>Name</span><input type="text" name="name"></label>
+         <label for=""><span>City</span><input type="text" name="city"></label>
+         <label for=""><span>Beds</span><input type="number" name="beds"></label>
+         <label for=""><span>Price per night</span><input type="number" name="price"></label>
+         <label for=""><span>Image Url</span><input type="text" name="imgUrl"></label>
+         <label for=""><span>Descriptions</span><textarea name="description" id="" cols="30" rows="10"></textarea></label>
+         <button>Create</button>
+    </form>
+</main>
+</section> 
